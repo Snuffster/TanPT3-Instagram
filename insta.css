@@ -9,6 +9,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: peachpuff;
+  height: 100%;
 }
 
 .content {
@@ -44,9 +45,11 @@ form {
   display: flex;
   flex-direction: column;
   background: #fff;
-  padding: 2rem;
+  padding: 1rem;
   width: 450px;
-  height: 430px;
+  height: 350px;
+  overflow: scroll;
+  margin-top: 3rem;
   border-radius: 1.5rem;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
@@ -164,7 +167,7 @@ form .create-account:hover {
   }
 }
 
-@media (min-width: 501px) and (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 768px) {
   html {
     font-size: 60%;
   }
