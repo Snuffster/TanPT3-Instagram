@@ -45,16 +45,16 @@ form {
   flex-direction: column;
   background: #fff;
   padding: 2rem;
-  width: 550px;
-  height: 1100px;
+  width: 450px;
+  height: 430px;
   border-radius: 1.5rem;
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
 
 form input {
   outline: none;
-  padding: 0.8rem 1rem;
-  margin-bottom: 0.8rem;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
   font-size: 1.1rem;
 }
 
